@@ -1,0 +1,313 @@
+package task8new;
+
+public class Q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         int a= 1;
+         int b=3;
+         int c=2;
+         int d=15;
+         
+         int a1=a+b;
+         int a2=c+d;
+         
+         if(a1>a2)
+         {
+        	 System.out.println("a1 is greater than a2");
+        	 
+         }else
+         {
+        	 System.out.println("a1 is not greater than a2");
+         }
+         
+	}}
+
+o/p
+a1 is not greater than a2
+
+package task8new;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=2;
+
+
+if(a % 2==0  )
+{
+	System.out.println("A is an even number");
+}
+  else
+{
+	System.out.println("A is not an even number");
+}
+	}
+
+}
+
+o/p
+A is an even number
+
+package task8new;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	  char a = 'A';
+      System.out.println(a);
+      char b = 'B';
+      System.out.println(b);
+     char c = 'C';
+     System.out.println(c);
+     char d = 'D';
+    System.out.println(d);
+    char e = 'E';
+    System.out.println(e);
+    char f = 'F';
+    System.out.println(f);
+    char g = 'G';
+    System.out.println(g);
+    char h = 'H';
+    System.out.println(h);
+    char i = 'I';
+    System.out.println(i);
+    char j = 'J';
+    System.out.println(j);
+    char k = 'K';
+    System.out.println(k);
+    char l = 'L';
+    System.out.println(l);
+    char m = 'M';
+    System.out.println(m);
+    char n = 'N';
+    System.out.println(n);
+    char o = 'O';
+    System.out.println(o);
+    char p = 'P';
+    System.out.println(p);
+    char q = 'Q';
+    System.out.println(q);
+    char r = 'R';
+    System.out.println(r);
+    char s = 'S';
+    System.out.println(s);
+    char t = 'T';
+    System.out.println(t);
+    char u = 'U';
+    System.out.println(u);
+    char v = 'V';
+    System.out.println(v);
+    char w = 'W';
+    System.out.println(w);
+    char x = 'X';
+    System.out.println(x);
+    char y = 'Y';
+    System.out.println(y);
+    char z = 'Z';
+    System.out.println(z);
+	}
+
+}
+
+o/p
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+package task8new;
+
+
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     int x=1;
+      int y=2;
+		int temp = x;
+      x = y;
+      y = temp;
+
+    System.out.println(" swap value X and Y");
+    System.out.println("x = " + x);
+    System.out.println("y = " + y);
+
+}
+	}
+
+o/p
+swap value X and Y
+x = 2
+y = 1
+
+package task8new;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num = 3;
+	    boolean b = false;
+	    for (int i = 2; i <= num / 2; i++) {
+	      
+	      if (num % i== 0) {
+	        b = true;
+	        break;
+	      }
+	    }
+
+	    if (!b)
+	      System.out.println(num + " is a prime number.");
+	    else
+	      System.out.println(num + " is not a prime number.");
+	  
+					
+	}
+
+}
+o/p
+3 is a prime number.
+package task8new;
+
+public class Q6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i, fact=1;
+int number =5;
+for (i=1;i<=number;i++) {
+	fact=fact*i;
+}
+System.out.println("factorial of "+ number+" is:"+fact);  
+	}
+
+}
+o/p
+factorial of 5 is:120
+
+
+package task8new;
+
+public class Q7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name=" Guvi Greek";
+		System.out.println(name);
+	}
+
+}
+
+	o/p
+Guvi Greek
+
+package task8new;
+
+public class Q8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="Welcome to Guvi";
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+	    System.out.println(name);
+		}
+	}
+
+o/p
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+
+
+
+
+
+
+package task8new;
+
+public class Q9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int age =60;
+	     
+	     if ((age >= 18) && (age <= 60 )) {
+	     System.out.println("senior citizen");
+	     }
+	     
+	     else
+	     
+	     if ((age >= 18) && (age <= 60 )) {
+	         System.out.println("not senior citizen");
+	         }
+
+	}
+	}
+	
+o/p
+senior citizen
+
+package task8new;
+
+public class Q10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		long n= 987654;
+			int count =0;
+			while(n!=0)
+			{
+				n=n/10;
+			++count;
+		}
+		
+		System.out.println("Number of digits : " + count);
+	}
+
+}
+o/p
+Number of digits : 6
